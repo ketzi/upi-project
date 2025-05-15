@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.angular/
+.vscode/
+target/
+*.class
+*.jar
+*.war
+*.log
+*.iml
+.idea/
+*.swp
+.DS_Store
+
