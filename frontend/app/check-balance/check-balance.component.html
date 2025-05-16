@@ -1,0 +1,6 @@
+<div>
+  <h3>Check Balance</h3>
+  <input [(ngModel)]="phone" placeholder="Enter phone number" />
+  <button (click)="checkBalance()">Check Balance</button>
+  <div *ngIf="balance !== null">Balance: ₹{{ balance }}</div>
+</div>

@@ -1,0 +1,9 @@
+<div>
+  <h3>Enable/Disable UPI</h3>
+  <input [(ngModel)]="phone" placeholder="Enter phone number" />
+  <label>
+    Enable:
+    <input type="checkbox" [(ngModel)]="enable" />
+  </label>
+  <button (click)="toggleUpi()">Toggle UPI</button>
+</div>
